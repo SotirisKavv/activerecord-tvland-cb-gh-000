@@ -10,5 +10,4 @@ class Show < ActiveRecord::Base
     self.network = Network.new(hash)
   end
 
-
 end
